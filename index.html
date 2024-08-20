@@ -1,0 +1,79 @@
+<!DOCTYPE html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Módulo 1</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https.//fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            Portfolio
+        </header>
+        <main>
+            <div class="container">
+            <h1>Sobre mi</h1>
+            <img src="vincent.jpg" id="imgPortfolio">
+            <p>
+                Mi nombre es <b>Vincent Willem van Gogh</b>, nací el 30 de marzo de 1853 y <mark>mi juventud fué alegre, fría y estéril</mark>. Esudié en la escuela secundaria <i>HBS Koning Willem <sup>II</sup> (Tilburg)</i> viviendo con la familia Hannik en la calle Sint Annaplein 18-19 y permanecí allí hasta que dejé los estudios de manera definitiva a los quince años. Si bien me conocen por mi <ins>carácter difícil y mi temperamento fuerte</ins>, en realidad no soy tan terrible. 
+                Mi primer trabajo fué en una galería de arte, en 1869, a la edad de 16 años, como aprendiz en Goupil & Co. (más tarde Boussod & Valadon), una importante
+                compañía internacional de comercio de arte de La Haya de la que mi tío Vincent fue socio. <mark>Es un negocio maravilloso. Cuanto más tiempo se trabaja en él más <b>ambicioso</b> se vuelve uno.</mark>
+                En mayo de 1875 fue destinado a París, donde creció mi amor por el arte. En particular, en una exposición de dibujos de Jean-François Millet, <mark>cuando entré en la sala del hotel Drouot, donde estaban expuestos, sentí alguna cosa como: descálzate porque el suelo que pisas es sagrado.</mark>
+                Tuve un amor no correspondido que me llevó a convertirme en pastor protestante para luego, en 1879, partir como misionero a una región minera en Bélgica. <em>Cuando me encontraba en el púlpito, me sentía como quien desde una oscura cueva subterránea vuelve a salir a la plena luz, y es maravilloso pensar que, desde ahora, predicaré el Evangelio por todo el mundo.<br>Los carboneros y los tejedores siguen constituyendo una raza aparte de los demás trabajadores y artesanos y siento por ellos una gran simpatía y me sentiría feliz si un día pudiera dibujarlos, de modo que estos tipos todavía inéditos o casi inéditos fuesen sacados a luz.</em>
+                Así que me decidí y comencé a dibujar a los locales, y en 1885 pinté un cuadro que algunos conocerán, titulado "los comedores de patatas". Mi paleta en esos comienzos se caracterizaba por los colores de tonos sombríos y terrosos. Actualmente vivo en Bruselas y sigo en constante evolución artística.
+
+            </p>
+
+            <p><a href="#section-contact"> ¿Cansado de Selfies? Obtén tu retrato al óleo</a></p>
+            </div>
+        </main>
+
+        <section id="section-knowledge">
+            <div class="container">
+                <h2>Conocimientos</h2>
+                <table width="100%">
+                    <tr>
+                        <td width="200">Programación</td>
+                        <td><div class="progress-bar" style="background-color: #f46524 ; width:21% ;">21%</div></td>
+                    </tr>
+                    <tr>
+                        <td>Dibujo</td>
+                        <td><div class="progress-bar" style="background-color: #d0c709 ; width:74% ;">74%</div></td>
+                    </tr>
+                    <tr>
+                        <td>Pintura</td>
+                        <td><div class="progress-bar" style="background-color: #068754 ; width:68% ;">68%</div></td>
+                    </tr>
+                    <tr>
+                        <td>Afeitada al ras</td>
+                        <td><div class="progress-bar" style="background-color: #00f ; width:10% ;">10%</div></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section id="section-contact">
+            <div class="container">
+                <h2>Comunicate</h2>
+                <ul>
+                    <li><a href="#">TikTok</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Whatsapp</a></li>
+                </ul>
+
+                <form>
+                    <label for="fName">Nombre</label>
+                    <input type="text" name="fName" id="fName" required>
+                    <label for="fEmail">Email</label>
+                    <input type="email" name="fEmail" id="fEmail" required>
+                    <label for="fComments">Comentarios</label>
+                    <textarea name="fComments" id="fComments"></textarea>  
+                    
+                    <input type="submit" value="Enviar" style="margin-top: 15px;">
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
